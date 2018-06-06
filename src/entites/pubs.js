@@ -50,6 +50,22 @@ export class Pub {
         return this._openDays;
     }
 
+    set start(start){
+        this._start=start;
+    }
+
+    get start (){
+        return this._start;
+    }
+
+    set end(end){
+        this._end=end;
+    }
+
+    get end (){
+        return this._end;
+    }
+
     set beers(beers){
         this._beers=beers;
     }

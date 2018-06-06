@@ -9,4 +9,18 @@
         <ul style="list-style-type:none" id ="liste">
         </ul>  
 </body>
+
+<input type="text" id="myText" value="Rentrez le nom de votre pub">
+
+<button onclick="myFunction()">Créer un nouveau pub</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myText").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
 </html>
